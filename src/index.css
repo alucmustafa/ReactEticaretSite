@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.paginate{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.paginate li{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(177, 169, 169);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.paginate li:active{
+  background-color: gray;
+}
